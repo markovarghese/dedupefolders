@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="dedupedb">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="MMPC2019:MMPC2019\marko">
+          <Created>2021-11-14T15:57:08.125512-06:00</Created>
+          <Type>SQL</Type>
+          <Server>MMPC2019</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="cleanup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MMPC2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MMPC2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>cleanup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="createdb.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MMPC2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MMPC2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>createdb.sql</FullPath>
+        </FileNode>
+        <FileNode Name="finddupes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MMPC2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MMPC2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>finddupes.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
